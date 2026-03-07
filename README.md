@@ -42,7 +42,7 @@ py run_compare_prices.py --train_csv guangdong_2025_complete.csv --valid_csv gua
 
 ## 常用参数
 - --xgb_history_mode：walk_forward / strict_recursive
-- --hybrid_select_metric：MAE / sMAPE_image
+- --hybrid_select_metric：MAE / sMAPE
 - --rt_peak_retrain_steps：实时价峰段重训频率
 - --rt_peak_*：峰段 XGB 超参增强
 - --enable_spread_experiment：开启日度 spread 实验
@@ -58,7 +58,7 @@ py run_compare_prices.py --train_csv guangdong_2025_complete.csv --valid_csv gua
 - retrain_log_*.csv：滚动重训记录
 - forecast_compare_*.png：可视化对比图
 
-指标文件按 MAE 排序，混合模型命名随选择指标变化（hybrid_segment_best_mae 或 hybrid_segment_best_smape_image）。实现见 [run_compare_prices.py](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L762-L797)。
+指标文件按 MAE 排序，混合模型命名随选择指标变化（hybrid_segment_best_mae 或 hybrid_segment_best_smape）。实现见 [run_compare_prices.py](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L762-L797)。
 
 ## 文档与报告
 - 实验复用报告：[experiment_report.md](file:///c:/Users/Joey/Desktop/xmo/experiment_report.md)
