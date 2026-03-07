@@ -57,7 +57,7 @@ py run_compare_prices.py --train_csv guangdong_2025_complete.csv --valid_csv gua
 - segment_model_selection_*.csv：分段最佳模型选择
 - retrain_log_*.csv：滚动重训记录
 - forecast_compare_*.png：可视化对比图
-
+- 详细可视化在final_best_plots！！
 指标文件按 MAE 排序，混合模型命名随选择指标变化（hybrid_segment_best_mae 或 hybrid_segment_best_smape）。实现见 [run_compare_prices.py](madels_and_results/run_compare_prices.py#L762-L797)。
 
 ## 文档与报告
