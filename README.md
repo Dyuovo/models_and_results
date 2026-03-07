@@ -13,7 +13,7 @@
 * 优化代码工作流，探索构建skills库辅助电力交易的学习和开发，部署专用于电力交易的claw。
 
 ### 🛠 技术栈与工具
-* **机器学习与预测:** XGBoost, Transformer, Chronos-2, lightgbm等（如有好用的模型留言给我）
+* **机器学习与预测:** XGBoost, Transformer, Chronos-2, lightgbm等（如有好用的模型请留言给我）
 * **运筹优化与分析:** PuLP 线性规划, IRR 财务建模
 * **领域专长:** 数据科学、电力市场机制、时间序列分析
 
