@@ -1,0 +1,103 @@
+target,feature,feature_family,importance_mean,rank_in_target
+day_ahead_price,lag_1,lag,0.47151480683197194,1
+day_ahead_price,roll_mean_4,roll_mean,0.28550063163185346,2
+day_ahead_price,lag_2,lag,0.03187434324690209,3
+day_ahead_price,sin_slot96,calendar_time,0.026557406598257283,4
+day_ahead_price,diff_1,diff,0.014903357785302523,5
+day_ahead_price,lag_96,lag,0.014627082627833743,6
+day_ahead_price,slot96,calendar_time,0.013255223241568942,7
+day_ahead_price,minute,calendar_time,0.012600796682837234,8
+day_ahead_price,roll_mean_16,roll_mean,0.011548306050826742,9
+day_ahead_price,diff_96,diff,0.011519733918248625,10
+day_ahead_price,lag_672,lag,0.010729775101003083,11
+day_ahead_price,dayofweek,calendar_time,0.010328711813482858,12
+day_ahead_price,hour,calendar_time,0.010222842439058343,13
+day_ahead_price,roll_mean_96,roll_mean,0.009797804962055559,14
+day_ahead_price,roll_mean_672,roll_mean,0.009553629396041466,15
+day_ahead_price,lag_4,lag,0.00905402954585714,16
+day_ahead_price,roll_std_96,roll_std,0.008810139147755774,17
+day_ahead_price,lag_192,lag,0.008777406769252375,18
+day_ahead_price,holiday_name_National Day,holiday_name,0.007331582805486116,19
+day_ahead_price,cos_slot96,calendar_time,0.00666163301326745,20
+day_ahead_price,before_holiday_1d,holiday_binary,0.004815944085614791,21
+day_ahead_price,is_holiday,holiday_binary,0.004606787583188808,22
+day_ahead_price,after_holiday_1d,holiday_binary,0.002656292709779758,23
+day_ahead_price,is_workday,holiday_binary,0.0008375106963518334,24
+day_ahead_price,holiday_name_None,holiday_name,0.000678849696949025,25
+day_ahead_price,holiday_name_Spring Festival,holiday_name,0.000597449285590125,26
+day_ahead_price,is_makeup_workday,holiday_binary,0.0003809364513402,27
+day_ahead_price,holiday_name_New Year's Day,holiday_name,0.00011300517265529167,28
+day_ahead_price,holiday_name_Mid-autumn Festival,holiday_name,8.275911100551419e-05,29
+day_ahead_price,is_weekend,calendar_time,5.901578590101667e-05,30
+day_ahead_price,holiday_name_Tomb-sweeping Day,holiday_name,1.3534203483290278e-06,31
+day_ahead_price,holiday_name_Dragon Boat Festival,holiday_name,8.593671783530273e-07,32
+day_ahead_price,holiday_name_Labour Day,holiday_name,0.0,33
+real_time_price,lag_1,lag,0.30054089812060386,1
+real_time_price,roll_mean_4,roll_mean,0.25244416723338264,2
+real_time_price,holiday_name_Dragon Boat Festival,holiday_name,0.06724657604615618,3
+real_time_price,roll_mean_16,roll_mean,0.04418386686041062,4
+real_time_price,roll_mean_96,roll_mean,0.01981364559525475,5
+real_time_price,is_holiday,holiday_binary,0.018631717343221357,6
+real_time_price,roll_mean_672,roll_mean,0.018057061635399524,7
+real_time_price,lag_2,lag,0.017086039245044985,8
+real_time_price,slot96,calendar_time,0.016169759740408168,9
+real_time_price,diff_96,diff,0.016102970734489307,10
+real_time_price,lag_96,lag,0.015650185740713984,11
+real_time_price,dayofweek,calendar_time,0.015081811202272049,12
+real_time_price,lag_672,lag,0.014893275632624442,13
+real_time_price,cos_slot96,calendar_time,0.014703536980027193,14
+real_time_price,lag_192,lag,0.014487665736128358,15
+real_time_price,minute,calendar_time,0.014073110307202602,16
+real_time_price,sin_slot96,calendar_time,0.0140173759995004,17
+real_time_price,diff_1,diff,0.013980202011178932,18
+real_time_price,roll_std_96,roll_std,0.013752807536944451,19
+real_time_price,lag_4,lag,0.012943613319806932,20
+real_time_price,hour,calendar_time,0.0128485746442889,21
+real_time_price,holiday_name_None,holiday_name,0.012732678205793458,22
+real_time_price,is_workday,holiday_binary,0.008703824999919034,23
+real_time_price,holiday_name_Spring Festival,holiday_name,0.008112884489748467,24
+real_time_price,before_holiday_1d,holiday_binary,0.007588667396843267,25
+real_time_price,after_holiday_1d,holiday_binary,0.007415721539590016,26
+real_time_price,holiday_name_Labour Day,holiday_name,0.006740444936813417,27
+real_time_price,holiday_name_National Day,holiday_name,0.006353539551547785,28
+real_time_price,is_weekend,calendar_time,0.005793878546356608,29
+real_time_price,is_makeup_workday,holiday_binary,0.0038782341044003247,30
+real_time_price,holiday_name_New Year's Day,holiday_name,0.003413733995283733,31
+real_time_price,holiday_name_Tomb-sweeping Day,holiday_name,0.0025052508057901834,32
+real_time_price,holiday_name_Mid-autumn Festival,holiday_name,5.228426806961752e-05,33
+spread_day_ahead_price,is_holiday,holiday_binary,0.25784128127939104,1
+spread_day_ahead_price,is_workday,holiday_binary,0.17978920603568835,2
+spread_day_ahead_price,diff_7,diff,0.0528790310001103,3
+spread_day_ahead_price,roll_mean_7,roll_mean,0.0526896940248876,4
+spread_day_ahead_price,dayofweek,calendar_time,0.05185751594048483,5
+spread_day_ahead_price,roll_mean_14,roll_mean,0.05138822086758207,6
+spread_day_ahead_price,month,calendar_time,0.049051373524886664,7
+spread_day_ahead_price,after_holiday_1d,holiday_binary,0.0442389370361192,8
+spread_day_ahead_price,roll_mean_3,roll_mean,0.042040872806532466,9
+spread_day_ahead_price,lag_14,lag,0.04168684639543,10
+spread_day_ahead_price,roll_std_7,roll_std,0.0413823109300969,11
+spread_day_ahead_price,lag_1,lag,0.03684620841324903,12
+spread_day_ahead_price,before_holiday_1d,holiday_binary,0.03575073984228553,13
+spread_day_ahead_price,lag_28,lag,0.032508334904475064,14
+spread_day_ahead_price,lag_7,lag,0.027935021035493734,15
+spread_day_ahead_price,is_weekend,calendar_time,0.0021144128057948666,16
+spread_day_ahead_price,diff_1,diff,0.0,17
+spread_day_ahead_price,is_makeup_workday,holiday_binary,0.0,18
+spread_real_time_price,roll_mean_3,roll_mean,0.11968924802561796,1
+spread_real_time_price,roll_mean_14,roll_mean,0.09694390994832168,2
+spread_real_time_price,lag_28,lag,0.08316005052691354,3
+spread_real_time_price,after_holiday_1d,holiday_binary,0.0790668846067254,4
+spread_real_time_price,roll_std_7,roll_std,0.07658700301289954,5
+spread_real_time_price,is_holiday,holiday_binary,0.06851289983876423,6
+spread_real_time_price,diff_7,diff,0.06659469724027593,7
+spread_real_time_price,dayofweek,calendar_time,0.0657321138037776,8
+spread_real_time_price,month,calendar_time,0.0648061222575529,9
+spread_real_time_price,roll_mean_7,roll_mean,0.06202481019150723,10
+spread_real_time_price,lag_14,lag,0.057552148860813335,11
+spread_real_time_price,lag_1,lag,0.05584139152357873,12
+spread_real_time_price,lag_7,lag,0.044282120185267594,13
+spread_real_time_price,is_workday,holiday_binary,0.026576467880646732,14
+spread_real_time_price,before_holiday_1d,holiday_binary,0.022378669907448634,15
+spread_real_time_price,is_weekend,calendar_time,0.005483786579415901,16
+spread_real_time_price,is_makeup_workday,holiday_binary,0.0047676626103694665,17
+spread_real_time_price,diff_1,diff,0.0,18

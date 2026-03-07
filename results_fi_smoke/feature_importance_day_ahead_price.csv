@@ -1,0 +1,397 @@
+target,scheme,segment,feature,importance_mean,importance_rank
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,roll_mean_4,0.5634778141975403,1
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,lag_1,0.2106572389602661,2
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,minute,0.01817232184112072,3
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,sin_slot96,0.016699248924851418,4
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,hour,0.01659439504146576,5
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,diff_1,0.01573847606778145,6
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,dayofweek,0.015318230725824833,7
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,roll_mean_16,0.014816551469266415,8
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,roll_mean_672,0.014349095523357391,9
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,lag_2,0.014099043793976307,10
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,diff_96,0.013659424148499966,11
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,lag_4,0.013392526656389236,12
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,lag_96,0.011579863727092743,13
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,is_holiday,0.011390346102416515,14
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,lag_672,0.010271983221173286,15
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,lag_192,0.009331544861197472,16
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,roll_mean_96,0.008651136420667171,17
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,roll_std_96,0.00839547161012888,18
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,cos_slot96,0.006952736992388964,19
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,slot96,0.005469048861414194,20
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,holiday_name_Mid-autumn Festival,0.000983508420176804,21
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,after_holiday_1d,0.0,22
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,before_holiday_1d,0.0,23
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,holiday_name_Dragon Boat Festival,0.0,24
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,holiday_name_Labour Day,0.0,25
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,holiday_name_National Day,0.0,26
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,holiday_name_New Year's Day,0.0,27
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,holiday_name_None,0.0,28
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,holiday_name_Spring Festival,0.0,29
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,holiday_name_Tomb-sweeping Day,0.0,30
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,is_makeup_workday,0.0,31
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,is_weekend,0.0,32
+day_ahead_price,chronos_xgb_residual_xgb_part,flat,is_workday,0.0,33
+day_ahead_price,chronos_xgb_residual_xgb_part,global,lag_1,0.5748740434646606,1
+day_ahead_price,chronos_xgb_residual_xgb_part,global,roll_mean_4,0.2245984673500061,2
+day_ahead_price,chronos_xgb_residual_xgb_part,global,roll_mean_672,0.02258194237947464,3
+day_ahead_price,chronos_xgb_residual_xgb_part,global,lag_2,0.01768994703888893,4
+day_ahead_price,chronos_xgb_residual_xgb_part,global,roll_mean_16,0.013732684776186943,5
+day_ahead_price,chronos_xgb_residual_xgb_part,global,minute,0.013317201286554337,6
+day_ahead_price,chronos_xgb_residual_xgb_part,global,lag_4,0.013019060716032982,7
+day_ahead_price,chronos_xgb_residual_xgb_part,global,sin_slot96,0.011353925801813602,8
+day_ahead_price,chronos_xgb_residual_xgb_part,global,holiday_name_National Day,0.011035594157874584,9
+day_ahead_price,chronos_xgb_residual_xgb_part,global,diff_1,0.010495100170373917,10
+day_ahead_price,chronos_xgb_residual_xgb_part,global,roll_mean_96,0.01030921284109354,11
+day_ahead_price,chronos_xgb_residual_xgb_part,global,lag_96,0.010044406168162823,12
+day_ahead_price,chronos_xgb_residual_xgb_part,global,slot96,0.009591314941644669,13
+day_ahead_price,chronos_xgb_residual_xgb_part,global,lag_192,0.009292485192418098,14
+day_ahead_price,chronos_xgb_residual_xgb_part,global,dayofweek,0.008134572766721249,15
+day_ahead_price,chronos_xgb_residual_xgb_part,global,lag_672,0.0077403089962899685,16
+day_ahead_price,chronos_xgb_residual_xgb_part,global,diff_96,0.0071631381288170815,17
+day_ahead_price,chronos_xgb_residual_xgb_part,global,hour,0.006355355493724346,18
+day_ahead_price,chronos_xgb_residual_xgb_part,global,roll_std_96,0.006162778474390507,19
+day_ahead_price,chronos_xgb_residual_xgb_part,global,cos_slot96,0.004733062349259853,20
+day_ahead_price,chronos_xgb_residual_xgb_part,global,before_holiday_1d,0.004716846160590649,21
+day_ahead_price,chronos_xgb_residual_xgb_part,global,is_holiday,0.0030585527420043945,22
+day_ahead_price,chronos_xgb_residual_xgb_part,global,after_holiday_1d,0.0,23
+day_ahead_price,chronos_xgb_residual_xgb_part,global,holiday_name_Dragon Boat Festival,0.0,24
+day_ahead_price,chronos_xgb_residual_xgb_part,global,holiday_name_Labour Day,0.0,25
+day_ahead_price,chronos_xgb_residual_xgb_part,global,holiday_name_Mid-autumn Festival,0.0,26
+day_ahead_price,chronos_xgb_residual_xgb_part,global,holiday_name_New Year's Day,0.0,27
+day_ahead_price,chronos_xgb_residual_xgb_part,global,holiday_name_None,0.0,28
+day_ahead_price,chronos_xgb_residual_xgb_part,global,holiday_name_Spring Festival,0.0,29
+day_ahead_price,chronos_xgb_residual_xgb_part,global,holiday_name_Tomb-sweeping Day,0.0,30
+day_ahead_price,chronos_xgb_residual_xgb_part,global,is_makeup_workday,0.0,31
+day_ahead_price,chronos_xgb_residual_xgb_part,global,is_weekend,0.0,32
+day_ahead_price,chronos_xgb_residual_xgb_part,global,is_workday,0.0,33
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,lag_1,0.5422860980033875,1
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,roll_mean_4,0.21117433905601501,2
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,holiday_name_National Day,0.033728957176208496,3
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,lag_2,0.024486307054758072,4
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,sin_slot96,0.018738145008683205,5
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,lag_4,0.015489164739847183,6
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,roll_mean_16,0.015267622657120228,7
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,diff_1,0.01415400393307209,8
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,roll_mean_96,0.013660573400557041,9
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,hour,0.012504409067332745,10
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,slot96,0.01120072416961193,11
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,before_holiday_1d,0.011020520702004433,12
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,roll_mean_672,0.010926332324743271,13
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,lag_672,0.010892663151025772,14
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,diff_96,0.010053310543298721,15
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,lag_192,0.009729195386171341,16
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,dayofweek,0.007859728299081326,17
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,roll_std_96,0.007066427264362574,18
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,minute,0.006972100120037794,19
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,lag_96,0.006199920084327459,20
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,is_holiday,0.004484338220208883,21
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,cos_slot96,0.002105164574459195,22
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,after_holiday_1d,0.0,23
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,holiday_name_Dragon Boat Festival,0.0,24
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,holiday_name_Labour Day,0.0,25
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,holiday_name_Mid-autumn Festival,0.0,26
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,holiday_name_New Year's Day,0.0,27
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,holiday_name_None,0.0,28
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,holiday_name_Spring Festival,0.0,29
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,holiday_name_Tomb-sweeping Day,0.0,30
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,is_makeup_workday,0.0,31
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,is_weekend,0.0,32
+day_ahead_price,chronos_xgb_residual_xgb_part,peak,is_workday,0.0,33
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,lag_1,0.4965350031852722,1
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,roll_mean_4,0.20147240161895752,2
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,sin_slot96,0.05422236770391464,3
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,dayofweek,0.022994941100478172,4
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,lag_2,0.021956993266940117,5
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,lag_96,0.01957753300666809,6
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,slot96,0.01681067794561386,7
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,diff_1,0.0162774957716465,8
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,hour,0.015625422820448875,9
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,roll_mean_16,0.015116365626454353,10
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,diff_96,0.013864969834685326,11
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,roll_mean_96,0.013390050269663334,12
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,roll_mean_672,0.01316683180630207,13
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,holiday_name_National Day,0.013123981654644012,14
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,roll_std_96,0.013028432615101337,15
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,minute,0.011411375366151333,16
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,lag_672,0.00794992595911026,17
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,lag_192,0.006923921871930361,18
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,lag_4,0.006459150929003954,19
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,before_holiday_1d,0.006406846921890974,20
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,cos_slot96,0.005204631946980953,21
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,holiday_name_Spring Festival,0.003981877584010363,22
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,holiday_name_None,0.002526346128433943,23
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,is_makeup_workday,0.001972401514649391,24
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,after_holiday_1d,0.0,25
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,holiday_name_Dragon Boat Festival,0.0,26
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,holiday_name_Labour Day,0.0,27
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,holiday_name_Mid-autumn Festival,0.0,28
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,holiday_name_New Year's Day,0.0,29
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,holiday_name_Tomb-sweeping Day,0.0,30
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,is_holiday,0.0,31
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,is_weekend,0.0,32
+day_ahead_price,chronos_xgb_residual_xgb_part,valley,is_workday,0.0,33
+day_ahead_price,xgb_only,flat,lag_1,0.5206059813499451,1
+day_ahead_price,xgb_only,flat,roll_mean_4,0.2158152014017105,2
+day_ahead_price,xgb_only,flat,sin_slot96,0.04319494217634201,3
+day_ahead_price,xgb_only,flat,lag_96,0.02757500857114792,4
+day_ahead_price,xgb_only,flat,lag_2,0.020443545654416084,5
+day_ahead_price,xgb_only,flat,minute,0.018922677263617516,6
+day_ahead_price,xgb_only,flat,diff_1,0.015623523853719234,7
+day_ahead_price,xgb_only,flat,dayofweek,0.015221349895000458,8
+day_ahead_price,xgb_only,flat,lag_672,0.013727795332670212,9
+day_ahead_price,xgb_only,flat,hour,0.0129246786236763,10
+day_ahead_price,xgb_only,flat,is_holiday,0.01264151744544506,11
+day_ahead_price,xgb_only,flat,roll_mean_16,0.012101437896490097,12
+day_ahead_price,xgb_only,flat,diff_96,0.01175011694431305,13
+day_ahead_price,xgb_only,flat,roll_mean_672,0.011053231544792652,14
+day_ahead_price,xgb_only,flat,slot96,0.010280757211148739,15
+day_ahead_price,xgb_only,flat,roll_mean_96,0.009628248400986195,16
+day_ahead_price,xgb_only,flat,cos_slot96,0.008529949933290482,17
+day_ahead_price,xgb_only,flat,lag_4,0.0070334626361727715,18
+day_ahead_price,xgb_only,flat,lag_192,0.006470974534749985,19
+day_ahead_price,xgb_only,flat,roll_std_96,0.005794331897050142,20
+day_ahead_price,xgb_only,flat,is_makeup_workday,0.000653321563731879,21
+day_ahead_price,xgb_only,flat,holiday_name_National Day,7.904799531388562e-06,22
+day_ahead_price,xgb_only,flat,after_holiday_1d,0.0,23
+day_ahead_price,xgb_only,flat,before_holiday_1d,0.0,24
+day_ahead_price,xgb_only,flat,holiday_name_Dragon Boat Festival,0.0,25
+day_ahead_price,xgb_only,flat,holiday_name_Labour Day,0.0,26
+day_ahead_price,xgb_only,flat,holiday_name_Mid-autumn Festival,0.0,27
+day_ahead_price,xgb_only,flat,holiday_name_New Year's Day,0.0,28
+day_ahead_price,xgb_only,flat,holiday_name_None,0.0,29
+day_ahead_price,xgb_only,flat,holiday_name_Spring Festival,0.0,30
+day_ahead_price,xgb_only,flat,holiday_name_Tomb-sweeping Day,0.0,31
+day_ahead_price,xgb_only,flat,is_weekend,0.0,32
+day_ahead_price,xgb_only,flat,is_workday,0.0,33
+day_ahead_price,xgb_only,global,lag_1,0.559650182723999,1
+day_ahead_price,xgb_only,global,roll_mean_4,0.2639661431312561,2
+day_ahead_price,xgb_only,global,lag_96,0.01726481504738331,3
+day_ahead_price,xgb_only,global,diff_1,0.012977872975170612,4
+day_ahead_price,xgb_only,global,minute,0.01197702158242464,5
+day_ahead_price,xgb_only,global,sin_slot96,0.01131358090788126,6
+day_ahead_price,xgb_only,global,lag_2,0.011283277533948421,7
+day_ahead_price,xgb_only,global,is_holiday,0.011233878321945667,8
+day_ahead_price,xgb_only,global,diff_96,0.011040669865906239,9
+day_ahead_price,xgb_only,global,lag_672,0.010983100160956383,10
+day_ahead_price,xgb_only,global,slot96,0.01062468159943819,11
+day_ahead_price,xgb_only,global,cos_slot96,0.01040258165448904,12
+day_ahead_price,xgb_only,global,lag_192,0.009473689831793308,13
+day_ahead_price,xgb_only,global,roll_mean_96,0.008445922285318375,14
+day_ahead_price,xgb_only,global,roll_std_96,0.007540739141404629,15
+day_ahead_price,xgb_only,global,holiday_name_National Day,0.006962940562516451,16
+day_ahead_price,xgb_only,global,lag_4,0.006145302671939135,17
+day_ahead_price,xgb_only,global,dayofweek,0.006090790499001741,18
+day_ahead_price,xgb_only,global,roll_mean_16,0.005282025318592787,19
+day_ahead_price,xgb_only,global,roll_mean_672,0.004530805163085461,20
+day_ahead_price,xgb_only,global,hour,0.0028099503833800554,21
+day_ahead_price,xgb_only,global,after_holiday_1d,0.0,22
+day_ahead_price,xgb_only,global,before_holiday_1d,0.0,23
+day_ahead_price,xgb_only,global,holiday_name_Dragon Boat Festival,0.0,24
+day_ahead_price,xgb_only,global,holiday_name_Labour Day,0.0,25
+day_ahead_price,xgb_only,global,holiday_name_Mid-autumn Festival,0.0,26
+day_ahead_price,xgb_only,global,holiday_name_New Year's Day,0.0,27
+day_ahead_price,xgb_only,global,holiday_name_None,0.0,28
+day_ahead_price,xgb_only,global,holiday_name_Spring Festival,0.0,29
+day_ahead_price,xgb_only,global,holiday_name_Tomb-sweeping Day,0.0,30
+day_ahead_price,xgb_only,global,is_makeup_workday,0.0,31
+day_ahead_price,xgb_only,global,is_weekend,0.0,32
+day_ahead_price,xgb_only,global,is_workday,0.0,33
+day_ahead_price,xgb_only,peak,lag_1,0.4045158922672272,1
+day_ahead_price,xgb_only,peak,roll_mean_4,0.37399226427078247,2
+day_ahead_price,xgb_only,peak,sin_slot96,0.02326836809515953,3
+day_ahead_price,xgb_only,peak,roll_mean_96,0.018647298216819763,4
+day_ahead_price,xgb_only,peak,lag_2,0.015212589874863625,5
+day_ahead_price,xgb_only,peak,holiday_name_National Day,0.01516062580049038,6
+day_ahead_price,xgb_only,peak,diff_1,0.013925018720328808,7
+day_ahead_price,xgb_only,peak,roll_mean_16,0.013802344910800457,8
+day_ahead_price,xgb_only,peak,hour,0.012679584324359894,9
+day_ahead_price,xgb_only,peak,slot96,0.012547243386507034,10
+day_ahead_price,xgb_only,peak,lag_96,0.012416928075253963,11
+day_ahead_price,xgb_only,peak,diff_96,0.011265924200415611,12
+day_ahead_price,xgb_only,peak,dayofweek,0.011146463453769684,13
+day_ahead_price,xgb_only,peak,lag_4,0.011130656115710735,14
+day_ahead_price,xgb_only,peak,lag_192,0.010467329062521458,15
+day_ahead_price,xgb_only,peak,lag_672,0.008962643332779408,16
+day_ahead_price,xgb_only,peak,roll_std_96,0.006647022441029549,17
+day_ahead_price,xgb_only,peak,cos_slot96,0.006163143087178469,18
+day_ahead_price,xgb_only,peak,roll_mean_672,0.005871534813195467,19
+day_ahead_price,xgb_only,peak,is_workday,0.004949610214680433,20
+day_ahead_price,xgb_only,peak,minute,0.004905634559690952,21
+day_ahead_price,xgb_only,peak,before_holiday_1d,0.0017138062976300716,22
+day_ahead_price,xgb_only,peak,holiday_name_None,0.0006081628380343318,23
+day_ahead_price,xgb_only,peak,after_holiday_1d,0.0,24
+day_ahead_price,xgb_only,peak,holiday_name_Dragon Boat Festival,0.0,25
+day_ahead_price,xgb_only,peak,holiday_name_Labour Day,0.0,26
+day_ahead_price,xgb_only,peak,holiday_name_Mid-autumn Festival,0.0,27
+day_ahead_price,xgb_only,peak,holiday_name_New Year's Day,0.0,28
+day_ahead_price,xgb_only,peak,holiday_name_Spring Festival,0.0,29
+day_ahead_price,xgb_only,peak,holiday_name_Tomb-sweeping Day,0.0,30
+day_ahead_price,xgb_only,peak,is_holiday,0.0,31
+day_ahead_price,xgb_only,peak,is_makeup_workday,0.0,32
+day_ahead_price,xgb_only,peak,is_weekend,0.0,33
+day_ahead_price,xgb_only,valley,lag_1,0.4795839488506317,1
+day_ahead_price,xgb_only,valley,roll_mean_4,0.28820711374282837,2
+day_ahead_price,xgb_only,valley,lag_2,0.043146394193172455,3
+day_ahead_price,xgb_only,valley,roll_std_96,0.015574171207845211,4
+day_ahead_price,xgb_only,valley,slot96,0.015273163095116615,5
+day_ahead_price,xgb_only,valley,before_holiday_1d,0.015171085484325886,6
+day_ahead_price,xgb_only,valley,diff_1,0.014723654836416245,7
+day_ahead_price,xgb_only,valley,lag_96,0.014203369617462158,8
+day_ahead_price,xgb_only,valley,lag_672,0.013473373837769032,9
+day_ahead_price,xgb_only,valley,minute,0.012907837517559528,10
+day_ahead_price,xgb_only,valley,lag_192,0.011174351908266544,11
+day_ahead_price,xgb_only,valley,roll_mean_16,0.009678644128143787,12
+day_ahead_price,xgb_only,valley,hour,0.008789525367319584,13
+day_ahead_price,xgb_only,valley,diff_96,0.008626962080597878,14
+day_ahead_price,xgb_only,valley,sin_slot96,0.0083537632599473,15
+day_ahead_price,xgb_only,valley,cos_slot96,0.00801590271294117,16
+day_ahead_price,xgb_only,valley,lag_4,0.006964714266359806,17
+day_ahead_price,xgb_only,valley,roll_mean_672,0.006453425623476505,18
+day_ahead_price,xgb_only,valley,roll_mean_96,0.004734201822429895,19
+day_ahead_price,xgb_only,valley,is_holiday,0.004072888754308224,20
+day_ahead_price,xgb_only,valley,dayofweek,0.0036300593055784702,21
+day_ahead_price,xgb_only,valley,holiday_name_None,0.0027821483090519905,22
+day_ahead_price,xgb_only,valley,is_workday,0.0024376835208386183,23
+day_ahead_price,xgb_only,valley,after_holiday_1d,0.0020216896664351225,24
+day_ahead_price,xgb_only,valley,holiday_name_Dragon Boat Festival,0.0,25
+day_ahead_price,xgb_only,valley,holiday_name_Labour Day,0.0,26
+day_ahead_price,xgb_only,valley,holiday_name_Mid-autumn Festival,0.0,27
+day_ahead_price,xgb_only,valley,holiday_name_National Day,0.0,28
+day_ahead_price,xgb_only,valley,holiday_name_New Year's Day,0.0,29
+day_ahead_price,xgb_only,valley,holiday_name_Spring Festival,0.0,30
+day_ahead_price,xgb_only,valley,holiday_name_Tomb-sweeping Day,0.0,31
+day_ahead_price,xgb_only,valley,is_makeup_workday,0.0,32
+day_ahead_price,xgb_only,valley,is_weekend,0.0,33
+day_ahead_price,xgb_oof_train,flat,lag_1,0.4561013736977027,1
+day_ahead_price,xgb_oof_train,flat,roll_mean_4,0.1466440764757303,2
+day_ahead_price,xgb_oof_train,flat,sin_slot96,0.0876692240484632,3
+day_ahead_price,xgb_oof_train,flat,lag_2,0.055443658780020014,4
+day_ahead_price,xgb_oof_train,flat,slot96,0.03203712963463309,5
+day_ahead_price,xgb_oof_train,flat,diff_1,0.025631915634641282,6
+day_ahead_price,xgb_oof_train,flat,minute,0.02484106093358535,7
+day_ahead_price,xgb_oof_train,flat,diff_96,0.02032967755356087,8
+day_ahead_price,xgb_oof_train,flat,lag_96,0.01872122651324249,9
+day_ahead_price,xgb_oof_train,flat,lag_672,0.01587492667246037,10
+day_ahead_price,xgb_oof_train,flat,after_holiday_1d,0.015563772480863217,11
+day_ahead_price,xgb_oof_train,flat,hour,0.012490661866300238,12
+day_ahead_price,xgb_oof_train,flat,roll_mean_16,0.011581279731427249,13
+day_ahead_price,xgb_oof_train,flat,roll_std_96,0.010614587531353418,14
+day_ahead_price,xgb_oof_train,flat,dayofweek,0.00993359340421963,15
+day_ahead_price,xgb_oof_train,flat,lag_4,0.009902567898209851,16
+day_ahead_price,xgb_oof_train,flat,roll_mean_96,0.009861661703325808,17
+day_ahead_price,xgb_oof_train,flat,lag_192,0.009317545614276942,18
+day_ahead_price,xgb_oof_train,flat,before_holiday_1d,0.008023888423429945,19
+day_ahead_price,xgb_oof_train,flat,roll_mean_672,0.0074134979334373316,20
+day_ahead_price,xgb_oof_train,flat,cos_slot96,0.00740626619125788,21
+day_ahead_price,xgb_oof_train,flat,is_holiday,0.0032305735652558864,22
+day_ahead_price,xgb_oof_train,flat,is_makeup_workday,0.0005618985815090127,23
+day_ahead_price,xgb_oof_train,flat,is_workday,0.00033060420089616225,24
+day_ahead_price,xgb_oof_train,flat,is_weekend,0.00026452593290461943,25
+day_ahead_price,xgb_oof_train,flat,holiday_name_National Day,0.0001991973216578257,26
+day_ahead_price,xgb_oof_train,flat,holiday_name_Mid-autumn Festival,9.600911889370203e-06,27
+day_ahead_price,xgb_oof_train,flat,holiday_name_Dragon Boat Festival,0.0,28
+day_ahead_price,xgb_oof_train,flat,holiday_name_Labour Day,0.0,29
+day_ahead_price,xgb_oof_train,flat,holiday_name_New Year's Day,0.0,30
+day_ahead_price,xgb_oof_train,flat,holiday_name_None,0.0,31
+day_ahead_price,xgb_oof_train,flat,holiday_name_Spring Festival,0.0,32
+day_ahead_price,xgb_oof_train,flat,holiday_name_Tomb-sweeping Day,0.0,33
+day_ahead_price,xgb_oof_train,global,lag_1,0.5052960257117565,1
+day_ahead_price,xgb_oof_train,global,roll_mean_4,0.2752488297052108,2
+day_ahead_price,xgb_oof_train,global,lag_2,0.0238654194220614,3
+day_ahead_price,xgb_oof_train,global,sin_slot96,0.021349275610051476,4
+day_ahead_price,xgb_oof_train,global,slot96,0.017870564819671787,5
+day_ahead_price,xgb_oof_train,global,diff_96,0.016398358176677272,6
+day_ahead_price,xgb_oof_train,global,lag_96,0.014518878189846873,7
+day_ahead_price,xgb_oof_train,global,lag_672,0.014368120052565176,8
+day_ahead_price,xgb_oof_train,global,minute,0.013259019706258467,9
+day_ahead_price,xgb_oof_train,global,diff_1,0.012473347023702584,10
+day_ahead_price,xgb_oof_train,global,dayofweek,0.009130482290996812,11
+day_ahead_price,xgb_oof_train,global,roll_mean_16,0.008523865374557387,12
+day_ahead_price,xgb_oof_train,global,lag_192,0.008414743705473553,13
+day_ahead_price,xgb_oof_train,global,before_holiday_1d,0.008022904458182612,14
+day_ahead_price,xgb_oof_train,global,roll_std_96,0.007923581055365503,15
+day_ahead_price,xgb_oof_train,global,after_holiday_1d,0.007389132205459576,16
+day_ahead_price,xgb_oof_train,global,lag_4,0.007142192419940749,17
+day_ahead_price,xgb_oof_train,global,cos_slot96,0.007116317319182249,18
+day_ahead_price,xgb_oof_train,global,roll_mean_672,0.006344545102015568,19
+day_ahead_price,xgb_oof_train,global,roll_mean_96,0.005909586652146222,20
+day_ahead_price,xgb_oof_train,global,hour,0.005698773642786994,21
+day_ahead_price,xgb_oof_train,global,is_holiday,0.0014406101959488855,22
+day_ahead_price,xgb_oof_train,global,holiday_name_National Day,0.0013597158876319344,23
+day_ahead_price,xgb_oof_train,global,holiday_name_None,0.0005151343849809984,24
+day_ahead_price,xgb_oof_train,global,is_weekend,0.00018933328661100508,25
+day_ahead_price,xgb_oof_train,global,holiday_name_Spring Festival,0.00011622090600072764,26
+day_ahead_price,xgb_oof_train,global,is_workday,0.00011502084537194326,27
+day_ahead_price,xgb_oof_train,global,holiday_name_Dragon Boat Festival,0.0,28
+day_ahead_price,xgb_oof_train,global,holiday_name_Labour Day,0.0,29
+day_ahead_price,xgb_oof_train,global,holiday_name_Mid-autumn Festival,0.0,30
+day_ahead_price,xgb_oof_train,global,holiday_name_New Year's Day,0.0,31
+day_ahead_price,xgb_oof_train,global,holiday_name_Tomb-sweeping Day,0.0,32
+day_ahead_price,xgb_oof_train,global,is_makeup_workday,0.0,33
+day_ahead_price,xgb_oof_train,peak,roll_mean_4,0.41772497731905717,1
+day_ahead_price,xgb_oof_train,peak,lag_1,0.3991998891131236,2
+day_ahead_price,xgb_oof_train,peak,lag_2,0.020528519060462713,3
+day_ahead_price,xgb_oof_train,peak,sin_slot96,0.0158115731095537,4
+day_ahead_price,xgb_oof_train,peak,lag_96,0.014894827663038786,5
+day_ahead_price,xgb_oof_train,peak,diff_1,0.01246380078821228,6
+day_ahead_price,xgb_oof_train,peak,roll_mean_16,0.012283678645662103,7
+day_ahead_price,xgb_oof_train,peak,slot96,0.009560402124547042,8
+day_ahead_price,xgb_oof_train,peak,lag_192,0.00864993315637828,9
+day_ahead_price,xgb_oof_train,peak,roll_mean_96,0.00858993070701567,10
+day_ahead_price,xgb_oof_train,peak,hour,0.008510880588661306,11
+day_ahead_price,xgb_oof_train,peak,diff_96,0.008152711549952913,12
+day_ahead_price,xgb_oof_train,peak,lag_4,0.007657457304258759,13
+day_ahead_price,xgb_oof_train,peak,cos_slot96,0.007040234443803246,14
+day_ahead_price,xgb_oof_train,peak,roll_std_96,0.0063115490394501155,15
+day_ahead_price,xgb_oof_train,peak,dayofweek,0.005947746726003691,16
+day_ahead_price,xgb_oof_train,peak,holiday_name_National Day,0.005934200652588446,17
+day_ahead_price,xgb_oof_train,peak,lag_672,0.0059151512373668644,18
+day_ahead_price,xgb_oof_train,peak,roll_mean_672,0.005687092437605875,19
+day_ahead_price,xgb_oof_train,peak,after_holiday_1d,0.00561746523565559,20
+day_ahead_price,xgb_oof_train,peak,minute,0.0050194045660856106,21
+day_ahead_price,xgb_oof_train,peak,is_holiday,0.00265848183279069,22
+day_ahead_price,xgb_oof_train,peak,holiday_name_Spring Festival,0.0025252563690838334,23
+day_ahead_price,xgb_oof_train,peak,is_workday,0.0015311805450787337,24
+day_ahead_price,xgb_oof_train,peak,before_holiday_1d,0.0008093491463184294,25
+day_ahead_price,xgb_oof_train,peak,is_makeup_workday,0.0004364574337019943,26
+day_ahead_price,xgb_oof_train,peak,holiday_name_None,0.0002798892634858091,27
+day_ahead_price,xgb_oof_train,peak,is_weekend,0.0002543302112966418,28
+day_ahead_price,xgb_oof_train,peak,holiday_name_Tomb-sweeping Day,3.6361158820979585e-06,29
+day_ahead_price,xgb_oof_train,peak,holiday_name_Dragon Boat Festival,0.0,30
+day_ahead_price,xgb_oof_train,peak,holiday_name_Labour Day,0.0,31
+day_ahead_price,xgb_oof_train,peak,holiday_name_Mid-autumn Festival,0.0,32
+day_ahead_price,xgb_oof_train,peak,holiday_name_New Year's Day,0.0,33
+day_ahead_price,xgb_oof_train,valley,lag_1,0.5088720046556913,1
+day_ahead_price,xgb_oof_train,valley,roll_mean_4,0.2436859513131472,2
+day_ahead_price,xgb_oof_train,valley,lag_2,0.11433642328931735,3
+day_ahead_price,xgb_oof_train,valley,diff_1,0.01435608364856587,4
+day_ahead_price,xgb_oof_train,valley,roll_std_96,0.010662577495587846,5
+day_ahead_price,xgb_oof_train,valley,minute,0.009503905450961051,6
+day_ahead_price,xgb_oof_train,valley,lag_672,0.00859730925787097,7
+day_ahead_price,xgb_oof_train,valley,dayofweek,0.008536583295118852,8
+day_ahead_price,xgb_oof_train,valley,lag_96,0.008528214870378949,9
+day_ahead_price,xgb_oof_train,valley,slot96,0.007796971109480812,10
+day_ahead_price,xgb_oof_train,valley,hour,0.007690472049244608,11
+day_ahead_price,xgb_oof_train,valley,sin_slot96,0.006714464532426343,12
+day_ahead_price,xgb_oof_train,valley,roll_mean_16,0.006393172075219739,13
+day_ahead_price,xgb_oof_train,valley,cos_slot96,0.006269604953978649,14
+day_ahead_price,xgb_oof_train,valley,roll_mean_672,0.006265218101012019,15
+day_ahead_price,xgb_oof_train,valley,lag_192,0.006083166105851818,16
+day_ahead_price,xgb_oof_train,valley,diff_96,0.005931543992259181,17
+day_ahead_price,xgb_oof_train,valley,roll_mean_96,0.005745836824644357,18
+day_ahead_price,xgb_oof_train,valley,lag_4,0.004312098196421105,19
+day_ahead_price,xgb_oof_train,valley,before_holiday_1d,0.0019060814330049863,20
+day_ahead_price,xgb_oof_train,valley,holiday_name_None,0.001434515439401506,21
+day_ahead_price,xgb_oof_train,valley,holiday_name_New Year's Day,0.0013560620718635619,22
+day_ahead_price,xgb_oof_train,valley,after_holiday_1d,0.0012834529289438461,23
+day_ahead_price,xgb_oof_train,valley,is_holiday,0.0010702638179421998,24
+day_ahead_price,xgb_oof_train,valley,is_makeup_workday,0.0009471583224904651,25
+day_ahead_price,xgb_oof_train,valley,is_workday,0.0006860290293563873,26
+day_ahead_price,xgb_oof_train,valley,holiday_name_Spring Festival,0.0005460365679867279,27
+day_ahead_price,xgb_oof_train,valley,holiday_name_National Day,0.0004658756526903464,28
+day_ahead_price,xgb_oof_train,valley,holiday_name_Tomb-sweeping Day,1.2604928297850374e-05,29
+day_ahead_price,xgb_oof_train,valley,holiday_name_Dragon Boat Festival,1.0312406140236328e-05,30
+day_ahead_price,xgb_oof_train,valley,holiday_name_Labour Day,0.0,31
+day_ahead_price,xgb_oof_train,valley,holiday_name_Mid-autumn Festival,0.0,32
+day_ahead_price,xgb_oof_train,valley,is_weekend,0.0,33

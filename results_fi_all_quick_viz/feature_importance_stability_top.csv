@@ -1,0 +1,41 @@
+index,target,scheme,segment,feature,feature_family,importance_mean,importance_std,importance_median,retrain_count,importance_cv
+281,day_ahead_price,xgb_oof_train,flat,is_weekend,calendar_time,0.0002645259329046192,0.0019075236295551033,0.0,52,7.21110255092798
+376,day_ahead_price,xgb_oof_train,valley,holiday_name_Tomb-sweeping Day,holiday_name,1.260492829785e-05,9.089543060289041e-05,0.0,52,7.21110255092798
+343,day_ahead_price,xgb_oof_train,peak,holiday_name_Tomb-sweeping Day,holiday_name,3.636115882096154e-06,2.6220404512853318e-05,0.0,52,7.21110255092798
+315,day_ahead_price,xgb_oof_train,global,is_workday,holiday_binary,0.00011502084537194231,0.0008294271114715057,0.0,52,7.211102550927978
+369,day_ahead_price,xgb_oof_train,valley,holiday_name_Dragon Boat Festival,holiday_name,1.0312406140234615e-05,7.436381822405118e-05,0.0,52,7.211102550927978
+346,day_ahead_price,xgb_oof_train,peak,is_makeup_workday,holiday_binary,0.0004364574337019923,0.0028103170307561607,0.0,52,6.438925800665845
+381,day_ahead_price,xgb_oof_train,valley,is_workday,holiday_binary,0.0006860290293563827,0.003184900587797051,0.0,52,4.642515770484311
+282,day_ahead_price,xgb_oof_train,flat,is_workday,holiday_binary,0.0003306042008961577,0.0013856769093003544,0.0,52,4.191346950656545
+314,day_ahead_price,xgb_oof_train,global,is_weekend,calendar_time,0.000189333286611,0.0007752333632576859,0.0,52,4.0945434219945875
+347,day_ahead_price,xgb_oof_train,peak,is_weekend,calendar_time,0.00025433021129663463,0.0009800165964608273,0.0,52,3.8533235649216606
+669,real_time_price,xgb_oof_train,flat,holiday_name_National Day,holiday_name,7.244313914828846e-06,5.223949055094534e-05,0.0,52,7.211102550927978
+667,real_time_price,xgb_oof_train,flat,holiday_name_Labour Day,holiday_name,0.00020960171241312886,0.0010601213609539434,0.0,52,5.057789598896141
+711,real_time_price,xgb_oof_train,global,is_workday,holiday_binary,0.003930073419514174,0.014613552330624845,0.0,52,3.7183916865429287
+710,real_time_price,xgb_oof_train,global,is_weekend,calendar_time,0.001501969525214423,0.0052650646227628845,0.0,52,3.5054403796982747
+734,real_time_price,xgb_oof_train,peak,holiday_name_Mid-autumn Festival,holiday_name,4.1198487731605775e-05,0.00013786667322974997,0.0,52,3.346401307929183
+776,real_time_price,xgb_oof_train,valley,is_weekend,calendar_time,0.0007946510701843192,0.0023899718677617933,0.0,52,3.007573962251683
+775,real_time_price,xgb_oof_train,valley,is_makeup_workday,holiday_binary,0.0021297555470552497,0.00544546496455124,0.0,52,2.55684976244364
+677,real_time_price,xgb_oof_train,flat,is_weekend,calendar_time,0.0018815227175274655,0.004646987481072565,0.0,52,2.469801420829632
+678,real_time_price,xgb_oof_train,flat,is_workday,holiday_binary,0.01285049098973662,0.030518681893984715,0.0,52,2.3749039564604386
+743,real_time_price,xgb_oof_train,peak,is_weekend,calendar_time,0.01143447393461916,0.025547175773097407,0.0026366889942437003,52,2.234223972101633
+835,spread_day_ahead_price,xgb_oof_train_spread,all,is_weekend,calendar_time,0.006343238417384689,0.016987525517225873,0.0,103,2.6780525024361004
+836,spread_day_ahead_price,xgb_oof_train_spread,all,is_workday,holiday_binary,0.11974463804887188,0.11483186698943477,0.0955274999141693,103,0.95897293490977
+841,spread_day_ahead_price,xgb_oof_train_spread,all,month,calendar_time,0.06439327712631916,0.060611050459674326,0.0415971800684928,103,0.9412636406246989
+829,spread_day_ahead_price,xgb_oof_train_spread,all,before_holiday_1d,holiday_binary,0.04822880571970296,0.034572857756246654,0.0361700691282749,103,0.7168507957086437
+843,spread_day_ahead_price,xgb_oof_train_spread,all,roll_mean_3,roll_mean,0.05193024161226536,0.031387045112593735,0.0422361940145492,103,0.6044078390188051
+828,spread_day_ahead_price,xgb_oof_train_spread,all,after_holiday_1d,holiday_binary,0.0425540924397776,0.023622028870865095,0.0458187237381935,103,0.5551059255768387
+842,spread_day_ahead_price,xgb_oof_train_spread,all,roll_mean_14,roll_mean,0.05673301594277604,0.03037743533693629,0.0487048402428627,103,0.535445451508811
+838,spread_day_ahead_price,xgb_oof_train_spread,all,lag_14,lag,0.046020365745118474,0.023068897455817017,0.0376642607152462,103,0.5012758391270284
+845,spread_day_ahead_price,xgb_oof_train_spread,all,roll_std_7,roll_std,0.048942964578282434,0.02361999322626406,0.04495095834136,103,0.48260242161025546
+839,spread_day_ahead_price,xgb_oof_train_spread,all,lag_28,lag,0.036978211669811877,0.017465868931288486,0.035720370709896,103,0.47232865362029397
+889,spread_real_time_price,xgb_oof_train_spread,all,is_weekend,calendar_time,0.016451359738247694,0.030183926134084077,0.0,99,1.834737469384345
+890,spread_real_time_price,xgb_oof_train_spread,all,is_workday,holiday_binary,0.012913198483110665,0.023442097328656795,0.0,99,1.8153594835018612
+888,spread_real_time_price,xgb_oof_train_spread,all,is_makeup_workday,holiday_binary,0.014302987831108482,0.02101412932886031,0.0,99,1.4692125573340233
+886,spread_real_time_price,xgb_oof_train_spread,all,diff_7,diff,0.07641650647903327,0.04878542538314171,0.0627225190401077,99,0.6384147565883188
+887,spread_real_time_price,xgb_oof_train_spread,all,is_holiday,holiday_binary,0.04447649616860978,0.02831270883916431,0.0425823964178562,99,0.6365768726886943
+883,spread_real_time_price,xgb_oof_train_spread,all,before_holiday_1d,holiday_binary,0.04458988414644589,0.027812785000534496,0.0411861576139926,99,0.6237465185868027
+895,spread_real_time_price,xgb_oof_train_spread,all,month,calendar_time,0.07809603191686394,0.04759176967971748,0.0737183913588523,99,0.6094006124457213
+897,spread_real_time_price,xgb_oof_train_spread,all,roll_mean_3,roll_mean,0.13726863122046593,0.05100381115992628,0.1408059746026992,99,0.3715620291864753
+882,spread_real_time_price,xgb_oof_train_spread,all,after_holiday_1d,holiday_binary,0.06343829509510532,0.022128221454925972,0.0622515380382537,99,0.3488148825839632
+899,spread_real_time_price,xgb_oof_train_spread,all,roll_std_7,roll_std,0.07673550111175784,0.02479119616416523,0.0666853114962577,99,0.3230733598528177
