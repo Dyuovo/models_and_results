@@ -1,0 +1,66 @@
+模型设计差异说明（xmo）
+
+一、15 分钟电价主实验（day_ahead_price / real_time_price）
+1) xgb_only
+   - 模型：分段 XGBoost（谷/平/峰），每周滚动重训
+   - 特征：15 分钟动态滞后 + 滚动统计 + 静态时序/节假日特征
+   - 预测方式：walk_forward 或 strict_recursive
+   - 参考实现：[rolling_segmented_xgb_predict](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L330-L435)
+
+2) chronos_only
+   - 模型：Chronos-2 基础模型，按周块预测
+   - 特征：仅历史目标序列（无外部特征）
+   - 参考实现：[rolling_chronos_predict](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L438-L488)
+
+3) chronos_xgb_residual
+   - 结构：Chronos 预测作为基线，XGBoost 学残差并加回
+   - 优势：保留基础模型趋势能力，XGB 修正局部偏差
+   - 参考实现：[run_for_target](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L691-L723)
+
+4) xgb_chronos_residual
+   - 结构：XGBoost 预测作为基线，Chronos 学残差并加回
+   - 优势：XGB 捕捉强结构特征，Chronos 修正时间相关残差
+   - 参考实现：[run_for_target](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L725-L753)
+
+5) hybrid_segment_best_mae
+   - 结构：按分段选择 MAE 最优模型拼接输出
+   - 选择策略：各分段独立比 MAE + RMSE 作为 tie-break
+   - 参考实现：[choose_segment_best_models](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L491-L631)
+
+6) hybrid_segment_best_smape
+   - 结构：按分段选择 sMAPE 最优模型拼接输出
+   - 选择策略：各分段独立比 sMAPE + RMSE 作为 tie-break
+   - 参考实现：[choose_segment_best_models](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L491-L631)
+
+7) real_time_price 峰段增强（适用于含 XGB 的方案）
+   - 峰段单独提参：n_estimators、max_depth、learning_rate
+   - 峰段可更高频重训：rt_peak_retrain_steps
+   - 参考实现：[run_for_target](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L649-L678)
+
+二、日度 spread 实验（peak_mean - valley_mean）
+1) xgb_only_spread
+   - 模型：日频 XGBoost，按日滚动重训
+   - 特征：日频滞后 + 日频滚动统计 + 日级节假日/周末特征
+   - 参考实现：[run_for_spread_target](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L940-L1014)
+
+2) chronos_only_spread
+   - 模型：日频 Chronos
+   - 特征：仅日度 spread 序列
+   - 参考实现：[run_for_spread_target](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L1015-L1022)
+
+3) chronos_xgb_residual_spread
+   - 结构：Chronos 预测为基线，XGB 学残差并加回
+   - 参考实现：[run_for_spread_target](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L1028-L1053)
+
+4) xgb_chronos_residual_spread
+   - 结构：XGB 预测为基线，Chronos 学残差并加回
+   - 参考实现：[run_for_spread_target](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L1056-L1079)
+
+5) hybrid_spread
+   - 结构：按滚动窗口选择最佳基模型（默认 chronos_xgb_residual_spread）
+   - 选择策略：lookback_days 内按 MAE 或 sMAPE 选优
+   - 参考实现：[choose_rolling_hybrid_for_spread](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L887-L937)
+
+补充：spread 目标构造
+- 定义：日峰值均价 - 日谷值均价
+- 参考实现：[build_daily_spread_series](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L654-L689)

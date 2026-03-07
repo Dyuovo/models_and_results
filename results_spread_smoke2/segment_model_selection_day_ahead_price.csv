@@ -1,0 +1,4 @@
+segment,selected_model,selected_metric,selected_metric_value,selected_RMSE,MAE,RMSE,MAPE_pct,sMAPE_pct,sMAPE
+valley,xgb_only,sMAPE,0.9120981145458351,28.683681487136553,21.74655792236328,28.683681487136553,8.790188545416484,8.14500471775372,0.9120981145458351
+flat,,sMAPE,,,,,,,
+peak,,sMAPE,,,,,,,

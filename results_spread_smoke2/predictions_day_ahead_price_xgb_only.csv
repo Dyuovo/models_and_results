@@ -1,0 +1,5 @@
+times,target,actual,segment,prediction
+2026-01-01 00:15:00,day_ahead_price,235.01,valley,288.4800720214844
+2026-01-01 00:30:00,day_ahead_price,279.76,valley,274.5630798339844
+2026-01-01 00:45:00,day_ahead_price,271.24,valley,283.9910583496094
+2026-01-01 01:00:00,day_ahead_price,266.13,valley,281.69818115234375
