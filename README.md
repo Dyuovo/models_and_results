@@ -35,10 +35,10 @@ py run_compare_prices.py --train_csv guangdong_2025_complete.csv --valid_csv gua
 ```
 
 ## 结果目录速查
-- 全量主实验输出在 [results](file:///c:/Users/Joey/Desktop/xmo/results)
-- 实时价峰段调参输出在 [results_rt_tuned](file:///c:/Users/Joey/Desktop/xmo/results_rt_tuned)
-- 特征重要性全量输出在 [results_fi_all_quick](file:///c:/Users/Joey/Desktop/xmo/results_fi_all_quick)
-- 目录与实验映射见 [result_experiment_mapping.md](file:///c:/Users/Joey/Desktop/xmo/result_experiment_mapping.md)
+- 全量主实验输出在 [results](madels_and_results/results)
+- 实时价峰段调参输出在 [results_rt_tuned](madels_and_results/results_rt_tuned)
+- 特征重要性全量输出在 [results_fi_all_quick](madels_and_results/results_fi_all_quick)
+- 目录与实验映射见 [result_experiment_mapping.md](madels_and_results/result_experiment_mapping.md)
 
 ## 常用参数
 - --xgb_history_mode：walk_forward / strict_recursive
@@ -58,9 +58,9 @@ py run_compare_prices.py --train_csv guangdong_2025_complete.csv --valid_csv gua
 - retrain_log_*.csv：滚动重训记录
 - forecast_compare_*.png：可视化对比图
 
-指标文件按 MAE 排序，混合模型命名随选择指标变化（hybrid_segment_best_mae 或 hybrid_segment_best_smape）。实现见 [run_compare_prices.py](file:///c:/Users/Joey/Desktop/xmo/run_compare_prices.py#L762-L797)。
+指标文件按 MAE 排序，混合模型命名随选择指标变化（hybrid_segment_best_mae 或 hybrid_segment_best_smape）。实现见 [run_compare_prices.py](madels_and_results/run_compare_prices.py#L762-L797)。
 
 ## 文档与报告
-- 实验复用报告：[experiment_report.md](file:///c:/Users/Joey/Desktop/xmo/experiment_report.md)
-- 结果目录对应实验说明：[result_experiment_mapping.md](file:///c:/Users/Joey/Desktop/xmo/result_experiment_mapping.md)
-- 模型差异说明：[model_design_differences.txt](file:///c:/Users/Joey/Desktop/xmo/model_design_differences.txt)
+- 实验复用报告：[experiment_report.md](madels_and_results/experiment_report.md)
+- 结果目录对应实验说明：[result_experiment_mapping.md](madels_and_results/result_experiment_mapping.md)
+- 模型差异说明：[model_design_differences.txt](madels_and_results/model_design_differences.txt)
